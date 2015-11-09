@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C80569B91BE19E8D0025B3D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80569B81BE19E8D0025B3D4 /* AppDelegate.swift */; };
+		C80569BB1BE19E8D0025B3D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80569BA1BE19E8D0025B3D4 /* ViewController.swift */; };
+		C80569BE1BE19E8D0025B3D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C80569BC1BE19E8D0025B3D4 /* Main.storyboard */; };
+		C80569C01BE19E8D0025B3D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C80569BF1BE19E8D0025B3D4 /* Assets.xcassets */; };
+		C80569CE1BE19E8D0025B3D4 /* ByodIosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80569CD1BE19E8D0025B3D4 /* ByodIosTests.swift */; };
+		C80569D91BE19E8D0025B3D4 /* ByodIosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80569D81BE19E8D0025B3D4 /* ByodIosUITests.swift */; };
+		C80569E71BE1B9390025B3D4 /* SizeAllocController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80569E61BE1B9390025B3D4 /* SizeAllocController.swift */; };
+		C80569EF1BE1D7F40025B3D4 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80569EE1BE1D7F40025B3D4 /* TableViewController.swift */; };
+		C80CDD451BEB264B00B4079B /* FinishListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80CDD441BEB264B00B4079B /* FinishListTableViewController.swift */; };
+		C80CDD471BEB266A00B4079B /* FinishListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80CDD461BEB266A00B4079B /* FinishListTableViewCell.swift */; };
+		C80CDD491BEB2CB900B4079B /* FinishDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80CDD481BEB2CB900B4079B /* FinishDetailTableViewController.swift */; };
+		C8472BB11BE9F1AF0035EB3B /* SeachingListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8472BB01BE9F1AF0035EB3B /* SeachingListTableViewController.swift */; };
+		C869779E1BEAF8D8007EDA2B /* SeachDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C869779D1BEAF8D8007EDA2B /* SeachDetailViewController.swift */; };
+		C869DC531BE9F7230044344D /* SeachingListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C869DC521BE9F7230044344D /* SeachingListTableViewCell.swift */; };
+		C89CFF661BE209E200AFCC57 /* LaunchImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C89CFF651BE209E200AFCC57 /* LaunchImages.xcassets */; };
+		C8E882021BE73A8800421143 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8E882011BE73A8800421143 /* MapKit.framework */; };
+		C8E8820A1BE75C7B00421143 /* MapSeachController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E882091BE75C7B00421143 /* MapSeachController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C80569CA1BE19E8D0025B3D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C80569AD1BE19E8D0025B3D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C80569B41BE19E8D0025B3D4;
+			remoteInfo = ByodIos;
+		};
+		C80569D51BE19E8D0025B3D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C80569AD1BE19E8D0025B3D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C80569B41BE19E8D0025B3D4;
+			remoteInfo = ByodIos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C80569B51BE19E8D0025B3D4 /* ByodIos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ByodIos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C80569B81BE19E8D0025B3D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C80569BA1BE19E8D0025B3D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C80569BD1BE19E8D0025B3D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C80569BF1BE19E8D0025B3D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C80569C41BE19E8D0025B3D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C80569C91BE19E8D0025B3D4 /* ByodIosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ByodIosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C80569CD1BE19E8D0025B3D4 /* ByodIosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ByodIosTests.swift; sourceTree = "<group>"; };
+		C80569CF1BE19E8D0025B3D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C80569D41BE19E8D0025B3D4 /* ByodIosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ByodIosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C80569D81BE19E8D0025B3D4 /* ByodIosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ByodIosUITests.swift; sourceTree = "<group>"; };
+		C80569DA1BE19E8D0025B3D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C80569E61BE1B9390025B3D4 /* SizeAllocController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SizeAllocController.swift; sourceTree = "<group>"; };
+		C80569EE1BE1D7F40025B3D4 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		C80CDD441BEB264B00B4079B /* FinishListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinishListTableViewController.swift; sourceTree = "<group>"; };
+		C80CDD461BEB266A00B4079B /* FinishListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinishListTableViewCell.swift; sourceTree = "<group>"; };
+		C80CDD481BEB2CB900B4079B /* FinishDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinishDetailTableViewController.swift; sourceTree = "<group>"; };
+		C8472BB01BE9F1AF0035EB3B /* SeachingListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeachingListTableViewController.swift; sourceTree = "<group>"; };
+		C869779C1BEAF84E007EDA2B /* ByodIos-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ByodIos-Bridging-Header.h"; sourceTree = "<group>"; };
+		C869779D1BEAF8D8007EDA2B /* SeachDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeachDetailViewController.swift; sourceTree = "<group>"; };
+		C869DC521BE9F7230044344D /* SeachingListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeachingListTableViewCell.swift; sourceTree = "<group>"; };
+		C89CFF651BE209E200AFCC57 /* LaunchImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = LaunchImages.xcassets; sourceTree = "<group>"; };
+		C8E882011BE73A8800421143 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		C8E882091BE75C7B00421143 /* MapSeachController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapSeachController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C80569B21BE19E8D0025B3D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8E882021BE73A8800421143 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C80569C61BE19E8D0025B3D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C80569D11BE19E8D0025B3D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C80569AC1BE19E8D0025B3D4 = {
+			isa = PBXGroup;
+			children = (
+				C8E882011BE73A8800421143 /* MapKit.framework */,
+				C89CFF651BE209E200AFCC57 /* LaunchImages.xcassets */,
+				C80569B71BE19E8D0025B3D4 /* ByodIos */,
+				C80569CC1BE19E8D0025B3D4 /* ByodIosTests */,
+				C80569D71BE19E8D0025B3D4 /* ByodIosUITests */,
+				C80569B61BE19E8D0025B3D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C80569B61BE19E8D0025B3D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C80569B51BE19E8D0025B3D4 /* ByodIos.app */,
+				C80569C91BE19E8D0025B3D4 /* ByodIosTests.xctest */,
+				C80569D41BE19E8D0025B3D4 /* ByodIosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C80569B71BE19E8D0025B3D4 /* ByodIos */ = {
+			isa = PBXGroup;
+			children = (
+				C80569B81BE19E8D0025B3D4 /* AppDelegate.swift */,
+				C80569BA1BE19E8D0025B3D4 /* ViewController.swift */,
+				C80569BC1BE19E8D0025B3D4 /* Main.storyboard */,
+				C80569BF1BE19E8D0025B3D4 /* Assets.xcassets */,
+				C80569C41BE19E8D0025B3D4 /* Info.plist */,
+				C80569E61BE1B9390025B3D4 /* SizeAllocController.swift */,
+				C80569EE1BE1D7F40025B3D4 /* TableViewController.swift */,
+				C8E882091BE75C7B00421143 /* MapSeachController.swift */,
+				C8472BB01BE9F1AF0035EB3B /* SeachingListTableViewController.swift */,
+				C869DC521BE9F7230044344D /* SeachingListTableViewCell.swift */,
+				C869779C1BEAF84E007EDA2B /* ByodIos-Bridging-Header.h */,
+				C869779D1BEAF8D8007EDA2B /* SeachDetailViewController.swift */,
+				C80CDD441BEB264B00B4079B /* FinishListTableViewController.swift */,
+				C80CDD461BEB266A00B4079B /* FinishListTableViewCell.swift */,
+				C80CDD481BEB2CB900B4079B /* FinishDetailTableViewController.swift */,
+			);
+			path = ByodIos;
+			sourceTree = "<group>";
+		};
+		C80569CC1BE19E8D0025B3D4 /* ByodIosTests */ = {
+			isa = PBXGroup;
+			children = (
+				C80569CD1BE19E8D0025B3D4 /* ByodIosTests.swift */,
+				C80569CF1BE19E8D0025B3D4 /* Info.plist */,
+			);
+			path = ByodIosTests;
+			sourceTree = "<group>";
+		};
+		C80569D71BE19E8D0025B3D4 /* ByodIosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C80569D81BE19E8D0025B3D4 /* ByodIosUITests.swift */,
+				C80569DA1BE19E8D0025B3D4 /* Info.plist */,
+			);
+			path = ByodIosUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C80569B41BE19E8D0025B3D4 /* ByodIos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C80569DD1BE19E8D0025B3D4 /* Build configuration list for PBXNativeTarget "ByodIos" */;
+			buildPhases = (
+				C80569B11BE19E8D0025B3D4 /* Sources */,
+				C80569B21BE19E8D0025B3D4 /* Frameworks */,
+				C80569B31BE19E8D0025B3D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ByodIos;
+			productName = ByodIos;
+			productReference = C80569B51BE19E8D0025B3D4 /* ByodIos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C80569C81BE19E8D0025B3D4 /* ByodIosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C80569E01BE19E8D0025B3D4 /* Build configuration list for PBXNativeTarget "ByodIosTests" */;
+			buildPhases = (
+				C80569C51BE19E8D0025B3D4 /* Sources */,
+				C80569C61BE19E8D0025B3D4 /* Frameworks */,
+				C80569C71BE19E8D0025B3D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C80569CB1BE19E8D0025B3D4 /* PBXTargetDependency */,
+			);
+			name = ByodIosTests;
+			productName = ByodIosTests;
+			productReference = C80569C91BE19E8D0025B3D4 /* ByodIosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C80569D31BE19E8D0025B3D4 /* ByodIosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C80569E31BE19E8D0025B3D4 /* Build configuration list for PBXNativeTarget "ByodIosUITests" */;
+			buildPhases = (
+				C80569D01BE19E8D0025B3D4 /* Sources */,
+				C80569D11BE19E8D0025B3D4 /* Frameworks */,
+				C80569D21BE19E8D0025B3D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C80569D61BE19E8D0025B3D4 /* PBXTargetDependency */,
+			);
+			name = ByodIosUITests;
+			productName = ByodIosUITests;
+			productReference = C80569D41BE19E8D0025B3D4 /* ByodIosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C80569AD1BE19E8D0025B3D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = IG.byod.ios;
+				TargetAttributes = {
+					C80569B41BE19E8D0025B3D4 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = KXVN3N93X9;
+					};
+					C80569C81BE19E8D0025B3D4 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = KXVN3N93X9;
+						TestTargetID = C80569B41BE19E8D0025B3D4;
+					};
+					C80569D31BE19E8D0025B3D4 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = KXVN3N93X9;
+						TestTargetID = C80569B41BE19E8D0025B3D4;
+					};
+				};
+			};
+			buildConfigurationList = C80569B01BE19E8D0025B3D4 /* Build configuration list for PBXProject "ByodIos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C80569AC1BE19E8D0025B3D4;
+			productRefGroup = C80569B61BE19E8D0025B3D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C80569B41BE19E8D0025B3D4 /* ByodIos */,
+				C80569C81BE19E8D0025B3D4 /* ByodIosTests */,
+				C80569D31BE19E8D0025B3D4 /* ByodIosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C80569B31BE19E8D0025B3D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C80569C01BE19E8D0025B3D4 /* Assets.xcassets in Resources */,
+				C80569BE1BE19E8D0025B3D4 /* Main.storyboard in Resources */,
+				C89CFF661BE209E200AFCC57 /* LaunchImages.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C80569C71BE19E8D0025B3D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C80569D21BE19E8D0025B3D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C80569B11BE19E8D0025B3D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C80CDD491BEB2CB900B4079B /* FinishDetailTableViewController.swift in Sources */,
+				C80CDD471BEB266A00B4079B /* FinishListTableViewCell.swift in Sources */,
+				C80CDD451BEB264B00B4079B /* FinishListTableViewController.swift in Sources */,
+				C869779E1BEAF8D8007EDA2B /* SeachDetailViewController.swift in Sources */,
+				C80569BB1BE19E8D0025B3D4 /* ViewController.swift in Sources */,
+				C80569B91BE19E8D0025B3D4 /* AppDelegate.swift in Sources */,
+				C869DC531BE9F7230044344D /* SeachingListTableViewCell.swift in Sources */,
+				C8E8820A1BE75C7B00421143 /* MapSeachController.swift in Sources */,
+				C80569E71BE1B9390025B3D4 /* SizeAllocController.swift in Sources */,
+				C80569EF1BE1D7F40025B3D4 /* TableViewController.swift in Sources */,
+				C8472BB11BE9F1AF0035EB3B /* SeachingListTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C80569C51BE19E8D0025B3D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C80569CE1BE19E8D0025B3D4 /* ByodIosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C80569D01BE19E8D0025B3D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C80569D91BE19E8D0025B3D4 /* ByodIosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C80569CB1BE19E8D0025B3D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C80569B41BE19E8D0025B3D4 /* ByodIos */;
+			targetProxy = C80569CA1BE19E8D0025B3D4 /* PBXContainerItemProxy */;
+		};
+		C80569D61BE19E8D0025B3D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C80569B41BE19E8D0025B3D4 /* ByodIos */;
+			targetProxy = C80569D51BE19E8D0025B3D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C80569BC1BE19E8D0025B3D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C80569BD1BE19E8D0025B3D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C80569DB1BE19E8D0025B3D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C80569DC1BE19E8D0025B3D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C80569DE1BE19E8D0025B3D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = ByodIos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ig.ByodIos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ByodIos/ByodIos-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C80569DF1BE19E8D0025B3D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = ByodIos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ig.ByodIos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ByodIos/ByodIos-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		C80569E11BE19E8D0025B3D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ByodIosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ig.ByodIosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ByodIos.app/ByodIos";
+			};
+			name = Debug;
+		};
+		C80569E21BE19E8D0025B3D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ByodIosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ig.ByodIosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ByodIos.app/ByodIos";
+			};
+			name = Release;
+		};
+		C80569E41BE19E8D0025B3D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ByodIosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ig.ByodIosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ByodIos;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C80569E51BE19E8D0025B3D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ByodIosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ig.ByodIosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ByodIos;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C80569B01BE19E8D0025B3D4 /* Build configuration list for PBXProject "ByodIos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C80569DB1BE19E8D0025B3D4 /* Debug */,
+				C80569DC1BE19E8D0025B3D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C80569DD1BE19E8D0025B3D4 /* Build configuration list for PBXNativeTarget "ByodIos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C80569DE1BE19E8D0025B3D4 /* Debug */,
+				C80569DF1BE19E8D0025B3D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C80569E01BE19E8D0025B3D4 /* Build configuration list for PBXNativeTarget "ByodIosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C80569E11BE19E8D0025B3D4 /* Debug */,
+				C80569E21BE19E8D0025B3D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C80569E31BE19E8D0025B3D4 /* Build configuration list for PBXNativeTarget "ByodIosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C80569E41BE19E8D0025B3D4 /* Debug */,
+				C80569E51BE19E8D0025B3D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C80569AD1BE19E8D0025B3D4 /* Project object */;
+}
