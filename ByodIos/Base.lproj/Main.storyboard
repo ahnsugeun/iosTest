@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
@@ -75,7 +75,7 @@
         <scene sceneID="WbU-Tq-aDF">
             <objects>
                 <navigationController title="진행현황" id="ZxN-h3-mjT" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="bdb-zo-jzI"/>
+                    <tabBarItem key="tabBarItem" title="진행현황" id="bdb-zo-jzI"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="cbj-XS-WQg">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -87,13 +87,13 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jX1-PN-330" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-270.5" y="2286.5"/>
+            <point key="canvasLocation" x="-247" y="2286"/>
         </scene>
         <!--완료목록-->
         <scene sceneID="ZNt-CV-BBH">
             <objects>
                 <navigationController title="완료목록" id="L1e-ZF-MPD" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="0Vh-kf-AoW"/>
+                    <tabBarItem key="tabBarItem" title="완료목록" id="0Vh-kf-AoW"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="l5N-KB-XYG">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -105,7 +105,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eQ5-jM-96b" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="191.5" y="2273.5"/>
+            <point key="canvasLocation" x="471" y="2286"/>
         </scene>
         <!--현장조사(일반)-->
         <scene sceneID="9Mg-Uh-lHL">
@@ -146,7 +146,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6r6-lU-fT4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="640.5" y="2273.5"/>
+            <point key="canvasLocation" x="1210" y="2286"/>
         </scene>
         <!--활용서비스 등록-->
         <scene sceneID="mFi-oe-Qys">
@@ -359,7 +359,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jzf-Bl-GyG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-708.5" y="2286.5"/>
+            <point key="canvasLocation" x="-958" y="2286"/>
         </scene>
         <!--현장조사-->
         <scene sceneID="gZu-Cf-fOh">
@@ -431,7 +431,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="y7i-qA-vfj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-708.5" y="3135.5"/>
+            <point key="canvasLocation" x="-958" y="3141"/>
         </scene>
         <!--현장조사-->
         <scene sceneID="vYB-l6-x9J">
@@ -493,7 +493,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NLO-2y-p2W" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-270.5" y="3135.5"/>
+            <point key="canvasLocation" x="-247" y="3141"/>
         </scene>
         <!--현장조사-->
         <scene sceneID="Dhk-8t-5Hp">
@@ -565,7 +565,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PDM-xa-y98" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="200.5" y="3135.5"/>
+            <point key="canvasLocation" x="-247" y="3955"/>
         </scene>
         <!--완료목록-->
         <scene sceneID="o4N-TN-u5F">
@@ -614,7 +614,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YcK-oT-NWd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="651.5" y="3135.5"/>
+            <point key="canvasLocation" x="471" y="3141"/>
         </scene>
         <!--완료상세보기-->
         <scene sceneID="EYb-tM-XJL">
@@ -734,11 +734,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5jA-Bl-mWT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1592" y="3135"/>
+            <point key="canvasLocation" x="471" y="3955"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="jxP-9C-a1U"/>
         <segue reference="2b3-Ag-g8Y"/>
-        <segue reference="JCd-IO-kAn"/>
     </inferredMetricsTieBreakers>
 </document>
