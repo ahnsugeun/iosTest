@@ -19,6 +19,7 @@
 		C80CDD471BEB266A00B4079B /* FinishListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80CDD461BEB266A00B4079B /* FinishListTableViewCell.swift */; };
 		C80CDD491BEB2CB900B4079B /* FinishDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80CDD481BEB2CB900B4079B /* FinishDetailTableViewController.swift */; };
 		C8472BB11BE9F1AF0035EB3B /* SeachingListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8472BB01BE9F1AF0035EB3B /* SeachingListTableViewController.swift */; };
+		C85D724F1BF1776900D47D37 /* UserRegController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85D724E1BF1776800D47D37 /* UserRegController.swift */; };
 		C869779E1BEAF8D8007EDA2B /* SeachDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C869779D1BEAF8D8007EDA2B /* SeachDetailViewController.swift */; };
 		C869DC531BE9F7230044344D /* SeachingListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C869DC521BE9F7230044344D /* SeachingListTableViewCell.swift */; };
 		C89CFF661BE209E200AFCC57 /* LaunchImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C89CFF651BE209E200AFCC57 /* LaunchImages.xcassets */; };
@@ -62,6 +63,7 @@
 		C80CDD461BEB266A00B4079B /* FinishListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinishListTableViewCell.swift; sourceTree = "<group>"; };
 		C80CDD481BEB2CB900B4079B /* FinishDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinishDetailTableViewController.swift; sourceTree = "<group>"; };
 		C8472BB01BE9F1AF0035EB3B /* SeachingListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeachingListTableViewController.swift; sourceTree = "<group>"; };
+		C85D724E1BF1776800D47D37 /* UserRegController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserRegController.swift; sourceTree = "<group>"; };
 		C869779C1BEAF84E007EDA2B /* ByodIos-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ByodIos-Bridging-Header.h"; sourceTree = "<group>"; };
 		C869779D1BEAF8D8007EDA2B /* SeachDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeachDetailViewController.swift; sourceTree = "<group>"; };
 		C869DC521BE9F7230044344D /* SeachingListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeachingListTableViewCell.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 				C80CDD441BEB264B00B4079B /* FinishListTableViewController.swift */,
 				C80CDD461BEB266A00B4079B /* FinishListTableViewCell.swift */,
 				C80CDD481BEB2CB900B4079B /* FinishDetailTableViewController.swift */,
+				C85D724E1BF1776800D47D37 /* UserRegController.swift */,
 			);
 			path = ByodIos;
 			sourceTree = "<group>";
@@ -299,6 +302,7 @@
 				C80569BB1BE19E8D0025B3D4 /* ViewController.swift in Sources */,
 				C80569B91BE19E8D0025B3D4 /* AppDelegate.swift in Sources */,
 				C869DC531BE9F7230044344D /* SeachingListTableViewCell.swift in Sources */,
+				C85D724F1BF1776900D47D37 /* UserRegController.swift in Sources */,
 				C8E8820A1BE75C7B00421143 /* MapSeachController.swift in Sources */,
 				C80569E71BE1B9390025B3D4 /* SizeAllocController.swift in Sources */,
 				C80569EF1BE1D7F40025B3D4 /* TableViewController.swift in Sources */,

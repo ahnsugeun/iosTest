@@ -191,22 +191,93 @@
         <!--현장조사-->
         <scene sceneID="ymW-UQ-lB7">
             <objects>
-                <viewController title="현장조사" id="4zr-N8-cr3" customClass="TableViewController" customModule="ByodIos" sceneMemberID="viewController">
+                <viewController title="현장조사" id="4zr-N8-cr3" customClass="UserRegController" customModule="ByodIos" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Jxu-SD-ZT0"/>
-                        <viewControllerLayoutGuide type="bottom" id="At4-O8-kTz"/>
+                        <viewControllerLayoutGuide type="top" id="5Nc-id-tFV"/>
+                        <viewControllerLayoutGuide type="bottom" id="lRW-HZ-FLe"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8da-BB-xSL" customClass="UITableView">
+                    <view key="view" contentMode="scaleToFill" id="CZC-rr-f0w">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ymp-gG-Ng4">
+                                <rect key="frame" x="0.0" y="33" width="600" height="44"/>
+                                <animations/>
+                                <items>
+                                    <navigationItem title="Title" id="Uzb-YJ-eaU"/>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="사용자" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R1f-m1-pTw">
+                                <rect key="frame" x="113" y="114" width="45" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="권한등록" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fUu-Ec-1h8">
+                                <rect key="frame" x="99" y="168" width="59" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9WX-8d-6B8">
+                                <rect key="frame" x="441" y="110" width="69" height="30"/>
+                                <animations/>
+                                <state key="normal" title="사용자 선택"/>
+                                <connections>
+                                    <action selector="userBtn:" destination="4zr-N8-cr3" eventType="touchUpInside" id="ABO-3w-DEj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ews-PC-lJc">
+                                <rect key="frame" x="454" y="168" width="56" height="30"/>
+                                <animations/>
+                                <state key="normal" title="권한 선택"/>
+                                <connections>
+                                    <action selector="rightBtn:" destination="4zr-N8-cr3" eventType="touchUpInside" id="Ofn-cS-1pM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Prl-C2-pNW">
+                                <rect key="frame" x="274" y="236" width="52" height="30"/>
+                                <animations/>
+                                <state key="normal" title="배정완료"/>
+                            </button>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sej-ky-EP3">
+                                <rect key="frame" x="0.0" y="296" width="600" height="216"/>
+                                <animations/>
+                            </pickerView>
+                        </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Prl-C2-pNW" firstAttribute="top" secondItem="CZC-rr-f0w" secondAttribute="top" constant="236" id="3JF-zk-FXt"/>
+                            <constraint firstItem="ymp-gG-Ng4" firstAttribute="leading" secondItem="CZC-rr-f0w" secondAttribute="leading" id="44V-TJ-wM2"/>
+                            <constraint firstItem="9WX-8d-6B8" firstAttribute="top" secondItem="ymp-gG-Ng4" secondAttribute="bottom" constant="33" id="Fff-8e-jAP"/>
+                            <constraint firstItem="Ews-PC-lJc" firstAttribute="trailing" secondItem="9WX-8d-6B8" secondAttribute="trailing" id="HfS-FC-XOX"/>
+                            <constraint firstItem="fUu-Ec-1h8" firstAttribute="top" secondItem="Ews-PC-lJc" secondAttribute="top" id="Kkb-aS-Wp4"/>
+                            <constraint firstItem="fUu-Ec-1h8" firstAttribute="trailing" secondItem="R1f-m1-pTw" secondAttribute="trailing" id="Ljy-e4-7fk"/>
+                            <constraint firstItem="Sej-ky-EP3" firstAttribute="top" secondItem="Prl-C2-pNW" secondAttribute="bottom" constant="30" id="OxO-w8-sKj"/>
+                            <constraint firstItem="Ews-PC-lJc" firstAttribute="top" secondItem="9WX-8d-6B8" secondAttribute="bottom" constant="28" id="Qac-Vv-I1P"/>
+                            <constraint firstItem="ymp-gG-Ng4" firstAttribute="top" secondItem="5Nc-id-tFV" secondAttribute="bottom" constant="13" id="gVv-Qy-zLI"/>
+                            <constraint firstAttribute="trailing" secondItem="ymp-gG-Ng4" secondAttribute="trailing" id="hmf-RF-kmY"/>
+                            <constraint firstItem="Sej-ky-EP3" firstAttribute="leading" secondItem="ymp-gG-Ng4" secondAttribute="leading" id="jaP-wZ-kBd"/>
+                            <constraint firstItem="Sej-ky-EP3" firstAttribute="trailing" secondItem="ymp-gG-Ng4" secondAttribute="trailing" id="ma6-CW-FId"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="9WX-8d-6B8" secondAttribute="trailing" constant="70" id="tZq-KU-PEW"/>
+                            <constraint firstItem="R1f-m1-pTw" firstAttribute="baseline" secondItem="9WX-8d-6B8" secondAttribute="baseline" id="tqr-qH-54p"/>
+                            <constraint firstItem="Prl-C2-pNW" firstAttribute="centerX" secondItem="ymp-gG-Ng4" secondAttribute="centerX" id="vLh-11-72r"/>
+                            <constraint firstItem="R1f-m1-pTw" firstAttribute="leading" secondItem="CZC-rr-f0w" secondAttribute="leadingMargin" constant="93" id="ycX-fo-MkI"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="조사 사용자 등록" id="UIJ-35-X6c"/>
+                    <connections>
+                        <outlet property="pickerView" destination="Sej-ky-EP3" id="YuH-Rc-v32"/>
+                        <outlet property="rightLabel" destination="fUu-Ec-1h8" id="e9F-nb-0zA"/>
+                        <outlet property="userLabel" destination="R1f-m1-pTw" id="Vll-vc-3GP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aS3-rz-Ic1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1812.5" y="844.5"/>
+            <point key="canvasLocation" x="1812" y="844"/>
         </scene>
         <!--현장조사-->
         <scene sceneID="NQS-Nr-Y5C">
