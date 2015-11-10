@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController , UITextFieldDelegate{
 
     @IBOutlet weak var idLabel: UITextField!
     @IBOutlet weak var passLabel: UITextField!
@@ -27,8 +27,21 @@ class ViewController: UIViewController {
         }
         
     }
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        idLabel.resignFirstResponder()
+        passLabel.resignFirstResponder()
+        return true
+    }
+    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        idLabel.resignFirstResponder()
+        passLabel.resignFirstResponder()
+        self.view.endEditing(true)
+        
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
+        idLabel.delegate=self
+        passLabel.delegate=self
         // Do any additional setup after loading the view, typically from a nib.
     }
 

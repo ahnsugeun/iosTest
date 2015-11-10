@@ -18,7 +18,7 @@ class SizeAllocController: UIViewController,UIPickerViewDataSource,UIPickerViewD
     @IBOutlet weak var userPickBtn: UIButton!  //사용자 선택 outlet
     @IBOutlet weak var userSizeAllocBtn: UIButton! //용량 선택 outlet
    
-    func displayMyAlert(title:String,message:String){
+    func displayMyAlert(title:String,message:String){ //alert 기능
         
         
             let alrtController : UIAlertController =
